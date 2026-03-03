@@ -1,3 +1,4 @@
+import os
 import sys
 from dataclasses import dataclass
 
@@ -10,13 +11,12 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 from src.exception import CustomException
 from src.logger import logging
-import os
 
 from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
+    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl") 
 
 class DataTransformation:
     def __init__(self):
@@ -24,7 +24,8 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data trnasformation
+        This function is responsible for data trnasformation
+        based on requirements and types of data...
         
         '''
         try:
@@ -37,6 +38,7 @@ class DataTransformation:
                 "test_preparation_course",
             ]
 
+            #Pipeline for numerical data transformation (Training Dataset)
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
@@ -44,7 +46,7 @@ class DataTransformation:
 
                 ]
             )
-
+             #Pipeline for categorical data transformation (Training Dataset)
             cat_pipeline=Pipeline(
 
                 steps=[
@@ -87,10 +89,17 @@ class DataTransformation:
 
             target_column_name="math_score"
             numerical_columns = ["writing_score", "reading_score"]
+            categorical_columns = [
+                "gender",
+                "race_ethnicity",
+                "parental_level_of_education",
+                "lunch",
+                "test_preparation_course",
+            ]
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
             target_feature_train_df=train_df[target_column_name]
-
+  
             input_feature_test_df=test_df.drop(columns=[target_column_name],axis=1)
             target_feature_test_df=test_df[target_column_name]
 
