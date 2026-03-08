@@ -8,7 +8,7 @@ The project demonstrates a **complete industry ML workflow** from raw data analy
 
 # 🚀 Project Highlights
 
-✔ Comprehensive **Exploratory Data Analysis (EDA)**
+✔ Comprehensive **Exploratory Data Analysis (EDA)**<br>
 ✔ **7 Machine Learning Algorithms Compared**
 ✔ **Hyperparameter Tuning for Model Optimization**
 ✔ **Modular Production-Level ML Pipeline**
