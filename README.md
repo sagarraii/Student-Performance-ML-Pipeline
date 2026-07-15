@@ -370,13 +370,12 @@ Possible enhancements:
 Machine Learning & AI Engineer (Aspiring)  
 Focused on building production-ready ML systems, data-driven applications, and cloud-deployed AI solutions.
 
-🔗 GitHub: https://github.com/sagarraii <br>
-🔗 LinkedIn: https://www.linkedin.com/in/mr-raiii/
+GitHub: https://github.com/sagarraii <br>
+LinkedIn: https://www.linkedin.com/in/mr-raiii/
 ---
 
-# ⭐ Support
+# Support
 
 If you find this project useful:
 
-⭐ Star the repository
-🔁 Share it with others
+⭐ Star the repository AND Share it with others
