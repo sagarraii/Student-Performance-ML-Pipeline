@@ -8,15 +8,15 @@ The project demonstrates a **complete industry ML workflow** from raw data analy
 
 #  Project Highlights
 
-✔ Comprehensive **Exploratory Data Analysis (EDA)**<br>
-✔ **7 Machine Learning Algorithms Compared**<br>
-✔ **Hyperparameter Tuning for Model Optimization**<br>
-✔ **Modular Production-Level ML Pipeline**<br>
-✔ **Flask Web Application for Predictions**<br>
-✔ **AWS Elastic Beanstalk Deployment**<br>
-✔ **Docker Containerization**<br>
-✔ **Azure Container Deployment**<br>
-✔ **AWS EC2 + ECR Container Registry Integration**<br>
+1. Comprehensive **Exploratory Data Analysis (EDA)**<br>
+2. **7 Machine Learning Algorithms Compared**<br>
+3. **Hyperparameter Tuning for Model Optimization**<br>
+4. **Modular Production-Level ML Pipeline**<br>
+5. **Flask Web Application for Predictions**<br>
+6. **AWS Elastic Beanstalk Deployment**<br>
+7. **Docker Containerization**<br>
+8. **Azure Container Deployment**<br>
+9. **AWS EC2 + ECR Container Registry Integration**<br>
 
 ---
 
