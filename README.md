@@ -1,4 +1,4 @@
-# 🎓 Student Performance Prediction – End-to-End ML Production Pipeline
+#  Student Performance Prediction – End-to-End ML Production Pipeline
 
 An **end-to-end machine learning project** that predicts student academic performance using multiple regression models, advanced **EDA**, **hyperparameter tuning**, and a **production-ready ML pipeline** deployed on cloud infrastructure.
 
@@ -6,7 +6,7 @@ The project demonstrates a **complete industry ML workflow** from raw data analy
 
 ---
 
-# 🚀 Project Highlights
+#  Project Highlights
 
 ✔ Comprehensive **Exploratory Data Analysis (EDA)**<br>
 ✔ **7 Machine Learning Algorithms Compared**<br>
@@ -20,7 +20,7 @@ The project demonstrates a **complete industry ML workflow** from raw data analy
 
 ---
 
-# 📊 Problem Statement
+#  Problem Statement
 
 Predict student academic performance based on demographic, social, and academic attributes.
 Such models can help **educational institutions identify students needing support early**.
@@ -33,7 +33,7 @@ Math Score
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 STUDENT-PERFORM/
@@ -74,7 +74,7 @@ STUDENT-PERFORM/
 
 ---
 
-# 📈 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 Extensive **EDA** was conducted to understand the dataset:
 
@@ -96,7 +96,7 @@ Libraries used:
 
 ---
 
-# 🤖 Machine Learning Models Used
+#  Machine Learning Models Used
 
 The following regression algorithms were trained and evaluated:
 
@@ -114,7 +114,7 @@ Each model was evaluated and compared using performance metrics.
 
 ---
 
-# ⚙️ Hyperparameter Tuning
+#  Hyperparameter Tuning
 
 Hyperparameter tuning was applied to improve model performance using **Grid Search / cross-validation techniques**.
 
@@ -130,7 +130,7 @@ This ensures the **best performing model is selected automatically**.
 
 ---
 
-# 📊 Model Evaluation Metrics
+#  Model Evaluation Metrics
 
 Models were evaluated using:
 
@@ -142,31 +142,31 @@ The pipeline selects the **best performing model** based on evaluation results.
 
 ---
 
-# 🧠 ML Pipeline Architecture
+#  ML Pipeline Architecture
 
 The project implements a modular **production ML pipeline**:
 
-### 1️⃣ Data Ingestion
+### 1️ Data Ingestion
 
 * Reads dataset
 * Splits train/test data
 * Saves artifacts
 
-### 2️⃣ Data Transformation
+### 2️ Data Transformation
 
 * Missing value handling
 * Encoding categorical features
 * Feature scaling
 * Pipeline creation using `sklearn`
 
-### 3️⃣ Model Training
+### 3️ Model Training
 
 * Train multiple models
 * Hyperparameter tuning
 * Model evaluation
 * Best model selection
 
-### 4️⃣ Prediction Pipeline
+### 4️ Prediction Pipeline
 
 * Load trained model
 * Apply preprocessing pipeline
@@ -174,7 +174,7 @@ The project implements a modular **production ML pipeline**:
 
 ---
 
-# 🌐 Web Application
+#  Web Application
 
 A simple **Flask web interface** allows users to input student information and obtain predicted scores.
 
@@ -186,7 +186,7 @@ Users can:
 
 ---
 
-# ☁️ Cloud Deployment
+#  Cloud Deployment
 
 The project is deployed using **multiple cloud environments**, simulating real production workflows.
 
@@ -214,7 +214,7 @@ Containerized application deployed using:
 
 ---
 
-# 🐳 Containerization
+#  Containerization
 
 The application is containerized using **Docker** to ensure portability across environments.
 
@@ -227,7 +227,7 @@ Benefits:
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 ### Programming
 
@@ -263,7 +263,7 @@ Flask
 
 ---
 
-# 🖥 Running Locally
+#  Running Locally
 
 ### Clone Repository
 
@@ -321,7 +321,7 @@ http://localhost:5000
 
 ---
 
-# 📦 Artifacts Generated
+#  Artifacts Generated
 
 The `artifacts/` folder contains:
 
@@ -334,7 +334,7 @@ This enables **reproducible predictions and production deployment**.
 
 ---
 
-# 🧾 Logging & Exception Handling
+#  Logging & Exception Handling
 
 The system includes structured:
 
@@ -350,7 +350,7 @@ logs/
 
 ---
 
-# 🎯 Future Improvements
+#  Future Improvements
 
 Possible enhancements:
 
@@ -363,7 +363,7 @@ Possible enhancements:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Sagar Rai**
 
